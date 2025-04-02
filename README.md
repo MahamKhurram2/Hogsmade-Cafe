@@ -1,4 +1,4 @@
-# Hogsmade Cafe - Food Website
+# Hogsmeade Cafe - Food Website
 
 Welcome to **Hogsmade Cafe**! This website is a Harry Potter-themed food website designed for a cafe, featuring pages such as login, home, menu, deals, cart, and a payment form. This project was built using HTML, CSS, and Bootstrap to create a visually appealing, responsive experience for users.
 
