@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+ 		<title>
+        		Cart
+    		</title>
+    		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="Page 5.css">
+	</head>
+
+	<body>
+		<h1>HOGSMEADE CAFE</h1>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    				<div class="navbar-header">
+      					<a class="navbar-brand" href="#">Hogsmeade Cafe</a>
+    				</div>
+    				<ul class="nav navbar-nav">
+     					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home <span class="caret"></span></a>
+        					<ul class="dropdown-menu">
+							<a href="Home.html">Home</a>
+	 					</ul>
+      					</li>
+      					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu <span class="caret"></span></a>
+        					<ul class="dropdown-menu">
+          
+       							<a href="MENU.html">Menu</a>
+        
+        					</ul>
+      					</li>
+ 					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Deals <span class="caret"></span></a>
+        					<ul class="dropdown-menu">
+          						<a href="Deals.html">Deals</a>
+        					</ul>
+      					</li>
+
+
+  					<li><a href="#">Cart</a></li>
+     
+    					</ul>
+				</ul>
+    				<ul class="nav navbar-nav navbar-right">
+      					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    				</ul>
+
+ 			</div>
+		</nav>
+		<h2>YOUR CART</h2>
+		<!-- Divisions for rows and columns -->
+		<div class="container">
+    			<div class="row">
+        			<div class="col-sm-12 col-md-10 col-md-offset-1">
+            				<table class="table table-hover">
+                				<thead>
+                    					<tr>
+                        					<th>Product</th>
+                        					<th>Quantity</th>
+                        					<th class="text-center">Price (Rs)</th>
+                        					<th class="text-center">Total (Rs)</th>
+                        					<th></th>
+                    					</tr>
+                				</thead>
+					<!-- Product quantity price with total in Rs -->
+
+
+
+					
+                				<tbody>
+                    					<tr>
+                        					<td class="col-sm-8 col-md-6">
+                        					<div class="media">
+                             						<a class="thumbnail pull-left" href="#"><img class="media-object mr-2" src="lasagne.png" style="width: 200px; height: 200px;"> </a>
+                            						<div class="product">
+                                						<h3 class="media-body">BOGGART DEAL</h3>
+                                
+                            					</div>
+
+
+
+
+								
+                        					</div></td>
+                        				<td class="col-sm-1 col-md-1" style="text-align: center">
+                        					<input type="email" class="form-control" id="exampleInputEmail1" value="1">
+                        				</td>
+                        				<td class="col-sm-1 col-md-1 text-center"><strong>2500</strong></td>
+                        				<td class="col-sm-1 col-md-1 text-center"><strong>2500</strong></td>
+                        				<td class="col-sm-1 col-md-1">
+                        				<button type="button" class="btn btn-danger">
+                            					<span class="glyphicon glyphicon-remove"></span> Remove
+                        				</button></td>
+
+						
+                    					</tr>
+                    				<tr>
+                        				<td class="col-md-6">
+                        					<div class="media">
+                            						<a class="thumbnail pull-left" href="#"> <img class="media-object mr-2" src="rice.jpg" style="width: 200px; height: 200px;"> </a>
+                            						<div class="media-body">
+                                						<h4 class="media-heading">MEXICAN RICE</h4>
+                               
+                            						</div>
+                        					</div></td>
+                        				<td class="col-md-1" style="text-align: center">
+                        					<input type="email" class="form-control" id="exampleInputEmail1" value="1">
+                        				</td>
+
+
+
+
+						<!--Price and the Remove Button -->
+                        				<td class="col-md-1 text-center"><strong>500</strong></td>
+                        				<td class="col-md-1 text-center"><strong>500</strong></td>
+                        				<td class="col-md-1">
+                        					<button type="button" class="btn btn-danger">
+                            						<span class="glyphicon glyphicon-remove"></span> Remove
+                        				</button></td>
+
+                    				</tr>
+                    				<tr>
+                        				<td class="col-md-6">
+                       	 					<div class="media">
+                            						<a class="thumbnail pull-left" href="#"> <img class="media-object mr-2" src="wings.jpg" style="width: 200px; height: 200px;"> </a>
+                            						<div class="media-body">
+                                						<h4 class="media-heading">RON WINGS</h4>
+                               
+                            						</div>
+                        				</div></td>
+                        				<td class="col-md-1" style="text-align: center">
+                        					<input type="email" class="form-control" id="exampleInputEmail1" value="1">
+                        				</td>
+
+
+
+
+						<!--Price and the Remove Button -->
+                        			<td class="col-md-1 text-center"><strong>300</strong></td>
+                        			<td class="col-md-1 text-center"><strong>300</strong></td>
+                        			<td class="col-md-1">
+                        			<button type="button" class="btn btn-danger">
+                            				<span class="glyphicon glyphicon-remove"></span> Remove
+                        			</button></td>
+					<!-- Subtotal, Delivery charges and Total -->
+                   			</tr>
+                    			<tr>
+                        			<td>  </td>
+                        			<td>  </td>
+                        			<td>  </td>
+                        			<td><h5>Subtotal</h5></td>
+                        			<td class="text-right"><h5><strong>Rs. 3300</strong></h5></td>
+                    			</tr>
+                    			<tr>
+                        			<td>  </td>
+                        			<td>  </td>
+                        			<td>  </td>
+                        			<td><h5>Delivery Charges</h5></td>
+                        			<td class="text-right"><h5><strong>Rs. 0.00</strong></h5></td>
+                    			</tr>
+                    			<tr>
+                        			<td>  </td>
+                        			<td>  </td>
+                        			<td>  </td>
+                        			<td><h3>Total</h3></td>
+                        			<td class="text-right"><h3><strong>Rs. 3300</strong></h3></td>
+                    				</tr>
+
+                    			</tr>
+                		</tbody>
+            		</table>
+        	</div>
+    	</div>
+	</div>
+	</div>
+	<!-- Reference to Payment page -->
+	<button>
+	 	<a href="Payment.html">
+           	PROCEED TO PAYMENT</a>
+        </button>
+    	<br>
+	<img src="logo.jpg" class="center"style="width=100%" alt="logo" width="200" height="200"><br>
+	<!-- Divisions for footer -->
+	<footer>
+  		<div class="footer">
+            		<div class="contain">
+            
+            			<div class="col">
+              				<h1>Products</h1>
+              				<ul>
+                				<li>About</li>
+                				<li>Services</li>
+                				<li>Get in touch</li>
+              				</ul>
+            			</div>
+            			<div class="col">
+              				<h1>Accounts</h1>
+              				<ul>
+                			<li>About</li>
+                			<li>Services</li>
+                			<li>Get in touch</li>
+              				</ul>
+            			</div>
+
+            			<div class="col">
+              				<h1>Support</h1>
+              				<ul>
+                				<li>Contact us</li>
+                				<li>Web chat</li>
+              				</ul>
+            			</div>
+            			<div class="col social">
+              				<h1>Social</h1>
+              				<ul>
+                				<li><img src="android.png" width="80" style="width: 80px;"></li>
+						<p>  </p>
+                				<li><img src="apple.png" width="80" style="width: 80px;"></li>
+                
+              				</ul>
+            			</div>
+          			<div class="clearfix"></div>
+          		</div>
+          	</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+             
+	</body> 
+</html>
